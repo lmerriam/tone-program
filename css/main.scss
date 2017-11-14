@@ -31,16 +31,23 @@ h1, h2, h3, h4 {
 }
 h1 {
   font-size: 5rem;
+  font-weight: bold;
 }
 h2 {
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  font-weight: normal;
 }
 p {
-  line-height: 1.4em;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
   text-align: left;
   padding-left: 10px;
   width: 90%;
+}
+
+a {
+  color: #16BAAA;
 }
 
 img {
@@ -48,16 +55,21 @@ img {
 }
 
 .red-text {
-  color: red;
+  color: #EB5757;
+}
+
+.asterisk {
+  font-size: .8rem;
+  line-height: 1rem;
 }
 
 .cta-button {
-  background: orange;
+  background: #EB5757;
   padding: 1rem 2rem;
   color: white;
   font-weight: 600;
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   border-radius: 4px;
   width: 78%;
@@ -72,6 +84,15 @@ img {
     border: 2px solid orange;
     color: orange;
   }
+}
+
+.topbar {
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.4rem;
+  text-align: left;
+  font-weight: bold;
 }
 
 .top {
@@ -94,5 +115,31 @@ img {
     position: absolute;
     left: 5%;
     width: 50%;
+  }
+  padding-bottom: 0;
+}
+
+.savings {
+  background: #EB5757;
+  color: white;
+}
+
+footer {
+  background: #333;
+  color: grey;
+  padding: 3rem 0;
+}
+
+input {
+  padding: 1rem;
+  font-size: 1.4rem;
+  width: 95%;
+  margin-bottom: .5rem;
+  &[type=email] {
+    border: 1px solid grey;
+  }
+  &[type=submit] {
+    background: #EB5757;
+    color: white;
   }
 }

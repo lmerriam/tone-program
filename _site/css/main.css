@@ -6,20 +6,35 @@ wrapper { width: 100%; max-width: 500px; display: block; margin: 0 auto; positio
 
 h1, h2, h3, h4 { font-family: 'Oswald', sans-serif; text-transform: uppercase; text-align: left; padding-left: 10px; max-width: 90%; }
 
-h1 { font-size: 5rem; }
+h1 { font-size: 5rem; font-weight: bold; }
 
-h2 { font-size: 2.5rem; line-height: 2.5rem; }
+h2 { font-size: 3.5rem; line-height: 3.5rem; font-weight: normal; }
 
-p { line-height: 1.4em; text-align: left; padding-left: 10px; width: 90%; }
+p { font-size: 1.4rem; line-height: 1.9rem; text-align: left; padding-left: 10px; width: 90%; }
+
+a { color: #16BAAA; }
 
 img { max-width: 100%; }
 
-.red-text { color: red; }
+.red-text { color: #EB5757; }
 
-.cta-button { background: orange; padding: 1rem 2rem; color: white; font-weight: 600; display: inline-block; font-size: 1.2rem; text-decoration: none; border-radius: 4px; width: 78%; max-width: 400px; text-align: center; }
+.asterisk { font-size: .8rem; line-height: 1rem; }
+
+.cta-button { background: #EB5757; padding: 1rem 2rem; color: white; font-weight: 600; display: inline-block; font-size: 1.5rem; text-decoration: none; border-radius: 4px; width: 78%; max-width: 400px; text-align: center; }
 .cta-button.contact { background: none; border: 2px solid orange; color: orange; }
+
+.topbar { padding: 1rem; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); font-family: 'Oswald', sans-serif; font-size: 1.4rem; text-align: left; font-weight: bold; }
 
 .top { padding-top: 0; padding-bottom: 0; }
 .top h1 { font-size: 5rem; text-align: left; position: absolute; left: 35%; top: 30px; color: white; line-height: 4.8rem; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); }
 
+.four-weeks { padding-bottom: 0; }
 .four-weeks .text-wrapper { position: absolute; left: 5%; width: 50%; }
+
+.savings { background: #EB5757; color: white; }
+
+footer { background: #333; color: grey; padding: 3rem 0; }
+
+input { padding: 1rem; font-size: 1.4rem; width: 95%; margin-bottom: .5rem; }
+input[type=email] { border: 1px solid grey; }
+input[type=submit] { background: #EB5757; color: white; }
